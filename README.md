@@ -53,7 +53,18 @@ Python · PyTorch · OpenCV · numpy · matplotlib
 
 ## What I Learned
 
-TBD — will be updated as notebooks are completed.
+Images are 3D arrays — (height, width, channels).
+Every pixel is a number. Every filter is a learned transformation.
+
+Gaussian blur removes noise by averaging neighbors.
+Sobel filters detect edges by finding rapid pixel changes.
+These hand-crafted filters became the templates that CNNs learn automatically.
+
+A CNN trained from scratch on MNIST achieves 99.3% accuracy in 5 epochs.
+The same accuracy with transfer learning requires only 5,130 trainable parameters — not 421,642.
+
+Transfer learning is one of the most practical insights in modern deep learning:
+pretrained features transfer across domains, even from color images to grayscale digits.
 
 ---
 
